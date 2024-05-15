@@ -28,7 +28,7 @@ class PlacePicker extends StatefulWidget {
   /// map does not pan to the user's current location.
   final LatLng? displayLocation;
   LocalizationItem? localizationItem;
-  LatLng defaultLocation = LatLng(10.5381264, 73.8827201);
+  LatLng defaultLocation = LatLng(24.753832, 46.6925579);
 
   PlacePicker(this.apiKey,
       {this.displayLocation, this.localizationItem, LatLng? defaultLocation}) {
