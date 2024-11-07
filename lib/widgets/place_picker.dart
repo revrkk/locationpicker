@@ -281,7 +281,7 @@ class PlacePickerState extends State<PlacePicker> {
       ),
     );
 
-    Overlay.of(context)?.insert(this.overlayEntry!);
+    Overlay.of(context).insert(this.overlayEntry!);
 
     autoCompleteSearch(place);
   }
@@ -397,7 +397,7 @@ class PlacePickerState extends State<PlacePicker> {
       ),
     );
 
-    Overlay.of(context)?.insert(this.overlayEntry!);
+    Overlay.of(context).insert(this.overlayEntry!);
   }
 
   /// Utility function to get clean readable name of a location. First checks
